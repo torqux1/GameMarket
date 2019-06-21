@@ -10,9 +10,6 @@ public final class Constants {
 	public static final CATEGORY_ACTION = "Action";
 	public static final CATEGORY_BRAIN = "Brain games";
 	public static final COLOR_DIRTY_WHITE = "#D9E7EA";
-	public static final COLOR_GREY = "#D9E7EA"";
-
-	
-	
+	public static final COLOR_GREY = "#D9E7EA";
 	
 }
