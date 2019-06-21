@@ -1,4 +1,4 @@
-package com.example.lenovo.fragmentsdialogslists;
+package com;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -6,17 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
-import com.example.lenovo.fragmentsdialogslists.adapters.GameCategoryAdapter;
-import com.example.lenovo.fragmentsdialogslists.adapters.GameItemAdapter;
-import com.example.lenovo.fragmentsdialogslists.models.CategoryItems;
-import com.example.lenovo.fragmentsdialogslists.models.GameCategory;
+import com.adapters.GameCategoryAdapter;
+import com.adapters.GameItemAdapter;
+import com.models.CategoryItems;
+import com.models.GameCategory;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class GameLayout extends AppCompatActivity implements OnGameClicked {
-	
     protected GameItemAdapter gameAdapter;
     protected RecyclerView recyclerViewGame;
     protected List<String> items;

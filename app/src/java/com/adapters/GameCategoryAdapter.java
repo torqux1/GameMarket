@@ -1,4 +1,4 @@
-package com.example.lenovo.fragmentsdialogslists.adapters;
+package com.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,9 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.example.lenovo.fragmentsdialogslists.models.GameCategory;
-import com.example.lenovo.fragmentsdialogslists.IOnItemClicked;
-import com.example.lenovo.fragmentsdialogslists.R;
+import com.models.GameCategory;
+import com.IOnItemClicked;
 import java.util.List;
 
 

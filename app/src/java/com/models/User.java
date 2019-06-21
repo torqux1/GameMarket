@@ -1,4 +1,4 @@
-package com.example.lenovo.fragmentsdialogslists.models;
+package com.models;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.lenovo.fragmentsdialogslists.models;
+package com.models;
 import android.os.Parcel;
 import android.os.Parcelable;
 import com.orm.SugarRecord;

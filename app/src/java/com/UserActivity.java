@@ -1,4 +1,4 @@
-package com.example.lenovo.fragmentsdialogslists;
+package com;
 
 import android.os.Bundle;
 import android.content.Intent;
@@ -12,10 +12,10 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.example.lenovo.fragmentsdialogslists.adapters.GameItemAdapter;
-import com.example.lenovo.fragmentsdialogslists.adapters.UserAdapter;
-import com.example.lenovo.fragmentsdialogslists.models.CategoryItems;
-import com.example.lenovo.fragmentsdialogslists.models.User;
+import com.adapters.GameItemAdapter;
+import com.adapters.UserAdapter;
+import com.models.CategoryItems;
+import com.models.User;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;

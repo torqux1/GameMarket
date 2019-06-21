@@ -1,7 +1,7 @@
-package com.example.lenovo.fragmentsdialogslists;
+package com;
 
-import com.example.lenovo.fragmentsdialogslists.adapters.GameItemAdapter;
-import com.example.lenovo.fragmentsdialogslists.models.CategoryItems;
+import com.GameItemAdapter;
+import com.models.CategoryItems;
 
 
 public interface OnGameClicked {

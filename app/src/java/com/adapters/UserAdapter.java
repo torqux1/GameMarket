@@ -6,8 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.example.lenovo.fragmentsdialogslists.R;
-import com.example.lenovo.fragmentsdialogslists.models.GameCategory;
+import com.models.GameCategory;
 import java.util.List;
 
 

@@ -1,5 +1,5 @@
-package com.example.lenovo.fragmentsdialogslists;
-import com.example.lenovo.fragmentsdialogslists.models.GameCategory;
+package com;
+import com.models.GameCategory;
 
 
 public interface IOnItemClicked {

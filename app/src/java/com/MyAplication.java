@@ -1,8 +1,8 @@
-package com.example.lenovo.fragmentsdialogslists;
+package com;
 import android.app.Application;
 import android.content.ContextWrapper;
-import com.example.lenovo.fragmentsdialogslists.models.CategoryItems;
-import com.example.lenovo.fragmentsdialogslists.models.GameCategory;
+import com.models.CategoryItems;
+import com.models.GameCategory;
 import com.orm.*;
 import java.io.File;
 import static Constants;
