@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/parent2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/prizze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/gameDesc"
+            android:layout_marginBottom="11dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="#638096"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/gameName" />
+
+        <TextView
+            android:id="@+id/gameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="sans-serif-condensed"
+
+            android:text="TextView"
+            android:textColor="#638096"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_above="@+id/gameDesc"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/gameDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/gameName"
+            android:layout_centerVertical="true"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textColor="#638096" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/prizze"
+            android:text="Prize:" />
+    </RelativeLayout>
+</LinearLayout>
